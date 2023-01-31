@@ -1,0 +1,339 @@
+.bodyy{
+background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+.TopOfPage{
+    margin: 0;
+    padding: 0;
+    height: 25vh;
+    /* border-bottom: 2px solid green; */
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ImgTopOfPage{
+    display: inline-block;
+
+}
+.ImgTopOfPageIn{
+    height: 100%;
+}
+.SingleTop{
+    display: none;
+}
+.zero{
+    margin: 0;
+    padding: 0;
+}
+.MobileTop{
+    display: none;
+}
+
+.Navigation{
+    margin: 0;
+    padding: 0;
+}
+.ListContainer{
+    background-color: rgb(156, 113, 235);
+    margin: 0;
+    height: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 25vw;
+    padding-right: 25vw;
+}
+
+.NavList{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
+}
+.ListItems{
+    color: red;
+    font-family: cursive;
+}
+.ListItems:hover{
+    color: green;
+    scale: 1.3;
+    border-bottom:solid 2px Red;
+}
+.Active{
+    color: Green;
+    border-bottom: red solid 3px;
+}
+.MainBody{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    margin-top: 5vh;
+    padding: 0;
+    justify-content: space-between;
+    overflow: auto;
+}
+.MyCard{
+    margin: 0;
+    padding: 0;
+    height: auto;
+    width: 80vw;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}
+.SideBar{
+    margin: 0;
+    /* border: 2px black solid; */
+    padding: 0;
+    height: 40vh;
+    width: 20vw;
+    /* background-color: rgb(255, 255, 255); */
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    overflow: auto;
+
+}
+.Cardd{
+    margin: 5vh;
+    display: inline-block;
+    min-width: 280px;
+    max-width: 280px;
+}
+.CardImage{
+    height: 15rem;
+}
+.Featured{
+    margin: 0;
+    padding: 0;
+    margin-top: 5vh;
+    height: auto;
+    background-color: rgb(59, 255, 59);
+}
+.Quotes{
+    margin: 0;
+    padding: 0;
+    margin-top: 5vh;
+    height: auto;
+    background-color: rgb(255, 124, 124);
+
+}
+
+.SideBarDataHead{
+    border-bottom: 2px solid black;
+    background-color: rgb(255, 255, 70);
+    margin-bottom: 5vh;
+    width: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.SideBarDataHead:Hover{
+    border-bottom: 2px solid black;
+    background-color: rgb(255, 255, 70);
+    margin-bottom: 5vh;
+    scale: 1.2;
+}
+
+.SideBarData{
+    margin: 5vh;
+}
+.SideBarData:hover{
+    margin: 5vh;
+    scale: 1.2;
+}
+.PhoneFeatured{
+    display: none;
+}
+.AboutUsMobile{
+    display: none;
+}
+
+
+.AboutUs{
+
+    background-color: black;
+    margin: 0;
+    margin-top: 30vh;
+    padding: 0;
+}
+.AboutUsContent{
+    padding: 0;
+    padding-top: 3vh;
+    background-color: azure;
+    height: 50vh;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.ImgAboutUs{
+    height: 100%;
+}
+.LeftClouds{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.RightClouds{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Clouds{
+    background-color: #ec8e2a;
+    height: 30%;
+    width: 70%;
+    text-align: center;
+    border-radius: 50%;
+}
+.Clouds:hover{
+    background-color: #ec8e2a;
+    height: 50%;
+    width: 80%;
+    text-align: center;
+    border-radius: 50%;
+}
+
+
+.Footer{
+    height: 30vh;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@media(max-width: 800px){
+    .SideBar{
+        display: none;
+    }
+    .MyCard{
+        margin: 0;
+        padding: 0;
+        height: auto;
+        width: 100vw;
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+        
+    }
+    .PhoneFeatured{
+        display: block;
+        padding: 0;
+        margin: 0;
+        margin-top: 30vh;
+    }
+    .AboutUs{
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+@media (max-width: 700px){
+    .TopOfPage{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+        height: 22vh;
+        /* border-bottom: 2px solid green; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .ImgTopOfPage{
+        display: none;
+    
+    }
+    .ImgTopOfPageIn{
+        display: none;
+    }
+    .SingleTop{
+        display: block;
+        height: 8rem;
+    }
+    .ListContainer{
+        background-color: rgb(155, 112, 234);
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        padding-left: 5vw;
+        padding-right: 5vw;
+        height: auto;
+        justify-content: space-between;
+    }
+    .MobileTop{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .SingleTopSides{
+        height: 6rem;
+        margin: 0;
+        padding: 0;
+    }
+    .LeftClouds{
+        display: none;
+    }
+    .RightClouds{
+        display: none;
+    }
+    .ImgAboutUs{
+        display: none;
+    }
+    .AboutUsMobile{
+        display: contents;
+
+    }
+   
+}
+@media (max-width: 400px){
+    .SingleTop{
+        display: block;
+        height: 6rem;
+    }
+    .MobileTop{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .SingleTopSides{
+        height: 5rem;
+        margin: 0;
+        padding: 0;
+    }
+    .LeftClouds{
+        display: none;
+    }
+    .RightClouds{
+        display: none;
+    }
+    .ImgAboutUs{
+        display: none;
+    }
+    .AboutUsMobile{
+        display: contents;
+
+    }
+}
+
+

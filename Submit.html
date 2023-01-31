@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do Lafz</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <style >
+        .SubmitBody{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+       .Scroll{
+        background-image: url(/image/Scroll.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        margin-top: 15%;
+        padding: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+
+       }
+
+
+    </style>
+
+
+
+
+</head>
+<body class="bodyy">
+    <section class="TopOfPage">
+        <div class="MobileTop">
+          <img  class="SingleTopSides" src="image/Poem TOP L.png" alt="lefttt">
+          <img class="SingleTop" src="image/Single Top.png" alt="singletop">
+          <img  class="SingleTopSides" src="image/Poem TOP R.png" alt="rightt">
+  
+        </div>
+          <div class="ImgTopOfPage">
+              <img class="ImgTopOfPageIn" src="image/Page Top Left.png" alt="leftimage">
+          </div>
+          <div class="ImgTopOfPage">
+              <img class="ImgTopOfPageIn" src="image/Page Top Right.png" alt="rightimage">
+          </div>
+      </section>
+      <section class="Navigation">
+          <ul class="ListContainer">
+              <li class="NavList" ><a style="text-decoration: none;" href="/"><h3 class="ListItems ">Home</h3></a></li>
+              <li class="NavList" ><a style="text-decoration: none;" href="/index.html#AboutUs"><h3 class="ListItems" >About</h3></a></li>
+              <li class="NavList"><a style="text-decoration: none;" href="/Submit.html"><h3 class="ListItems Active" >Submit</h3></a></li>
+          </ul>
+      </section>
+      <section class="SubmitBody">
+        <div class="Scroll">
+            <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputPassword4" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Address</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress2" class="form-label">Address 2</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">City</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                  <label for="inputState" class="form-label">State</label>
+                  <select id="inputState" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                  </select>
+                </div>
+                <div class="col-md-2">
+                  <label for="inputZip" class="form-label">Zip</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Check me out
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+              </form>
+        </div>
+
+
+      </section>
+
+
+
+    
+
+    
+</body>
+</html>
